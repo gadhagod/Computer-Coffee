@@ -1,0 +1,22 @@
+{
+  "name": "computer-wakeup",
+  "version": "0.0.1",
+  "description": "Keep your computer awake for however long you want",
+  "main": "index.js",
+  "homepage": "https://github.com/gadhagod/Computer-Cofffee",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "keyboardjs": "^2.6.4",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "coffee-help": "./help.js",
+    "coffee-drink": "./index.js"
+  },
+  "author": "Aarav Borthakur",
+  "license": "MIT"
+}
